@@ -1,25 +1,42 @@
-import logo from './logo.svg';
 import './App.css';
+import Emp from './comps/Employee';
+import React from 'react';
+
 
 function App() {
+console.log("About to enter User profile");
+const showemp = true;
+
   return (
+    
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        {showemp ? (
+          <>   
+              <Emp />
+              <Emp />
+              <Emp />
+          
+          </>
+           ):(   /// output value for showemp constant
+     
+              <p>cannot see the employees</p>
+
+        )} 
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+           HAHA @ 
+           Learn React in 69 mins !
+           <employee />
         </a>
       </header>
     </div>
   );
 }
+
 
 export default App;
