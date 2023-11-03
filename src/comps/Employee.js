@@ -4,7 +4,7 @@ function Emp(props) {
 return  (
 <>
         <h3>
-          Hola, {props.name}!
+          HoLa, {props.name}!
         </h3>
         <p>
           {props.role}
@@ -13,5 +13,6 @@ return  (
   </>
 )}
 
+  
 
 export default Emp;
