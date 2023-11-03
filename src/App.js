@@ -15,8 +15,8 @@ const showemp = true;
         {showemp ? (
           <>   
               <Emp name="Btch" role="Intern"/> 
-              <Emp name="btch-0" role="Intern"/> 
-              <Emp name="Btch-1" role="Intern"/> 
+              <Emp name="btch-00" role="Intern"/> 
+              <Emp name="Btch-01" role="Intern"/> 
           </>
            ):(   /// output value for showemp constant
 
