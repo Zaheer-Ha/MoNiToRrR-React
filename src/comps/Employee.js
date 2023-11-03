@@ -1,9 +1,19 @@
-function Emp() {
+function Emp(props) {
 
-return <h3>Test Component</h3>;
+
+return  (
+<>
+        <h3>
+          Hello, {props.name}!
+        </h3>
+        <p>
+          {props.role}
+        </p>
+
+  </>
+)}
 
   
-}
 
 export default Emp;
 

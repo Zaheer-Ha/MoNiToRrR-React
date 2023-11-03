@@ -3,6 +3,7 @@ import Emp from './comps/Employee';
 import React from 'react';
 
 
+
 function App() {
 console.log("About to enter User profile");
 const showemp = true;
@@ -13,18 +14,15 @@ const showemp = true;
       <header className="App-header">
         {showemp ? (
           <>   
-              <Emp />
-              <Emp />
-              <Emp />
-              <Emp />
-              <Emp />
-          
+              <Emp name="Btch" role="Intern"/> 
+              <Emp name="btch-0" role="Intern"/> 
+              <Emp name="Btch-1" role="Intern"/> 
           </>
            ):(   /// output value for showemp constant
-     
-              <p>cannot see the employees</p>
 
-        )} 
+              <p>cannot see the employees</p>
+         )} 
+       
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -39,6 +37,7 @@ const showemp = true;
     </div>
   );
 }
+
 
 
 export default App;
