@@ -29,7 +29,7 @@ const showemp = true;
           target="_blank"
           rel="noopener noreferrer"
         >
-           HAHA @ 
+      
            Learn React in 69 mins !
            <employee />
         </a>
