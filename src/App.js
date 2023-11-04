@@ -15,10 +15,15 @@ const showemp = true;
         {showemp ? (
           <>   
               <Emp name="Btch" role="Intern"/> 
-              <Emp name="btch-00" role="Intern"/> 
-              <Emp name="Btch-1" role="Intern"/> 
+              <input type="text" className="Holo"></input> 
+              <Emp name="btch-00" role="No-Role"/> 
+              <input type="text" className="Holo"></input> 
+              <Emp name="Btch-1"/> 
+              <input type="text" className="Holo"></input> 
+
           </>
-           ):(   /// output value for showemp constant
+           ):(   // output value for 
+                //showemp constant: shown if showemp constant is false.
 
               <p>cannot see the employees</p>
          )} 
@@ -31,7 +36,7 @@ const showemp = true;
         >
       
            Learn React in 69 mins !
-           <employee />
+           
         </a>
       </header>
     </div>
