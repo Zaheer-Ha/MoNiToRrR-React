@@ -1,11 +1,7 @@
-
-
 .Hola {
 
-background-color: #ff4b4b;
+background-color: #b1f8ec;
 margin-left: 10px;
-
-
 
 }
 
@@ -18,11 +14,16 @@ background-color: bisque;
 
 }
 
+.App-link {
+
+    display: flex;
+    margin: 20px;
+
+}
+
 .null {
 
 background-color: rgb(130, 248, 173);
-
-
 
 
 }

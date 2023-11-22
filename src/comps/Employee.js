@@ -9,7 +9,7 @@ return  (
             HoLa, {props.name}!
           </h3>
           {props.role ? <p class="null">{props.role}</p>: <p class="null">Associate</p>}
-        
+          
       </div>
 </>
 )}

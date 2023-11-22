@@ -1,6 +1,9 @@
 import './App.css';
 import Emp from './comps/Employee';
 import React from 'react';
+import Approve from './comps/Approve';
+
+
 
 
 
@@ -20,12 +23,18 @@ const showemp = true;
               <input type="text" className="Holo"></input> 
               <Emp name="Btch-1"/> 
               <input type="text" className="Holo"></input> 
+              <Approve />
+            
+
+        
+              
+          
 
           </>
            ):(   // output value for 
                 //showemp constant: shown if showemp constant is false.
-
-              <p>cannot see the employees</p>
+              
+                <p>cannot see the employees</p>
          )} 
        
         <a
