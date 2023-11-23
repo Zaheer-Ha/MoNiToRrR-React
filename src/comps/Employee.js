@@ -11,9 +11,10 @@ return  (
           {props.role ? <p class="null">{props.role}</p>: <p class="null">Associate</p>}
           
       </div>
+
 </>
 )}
 
-  
+
 
 export default Emp;
